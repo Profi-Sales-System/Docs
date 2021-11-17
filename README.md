@@ -184,7 +184,7 @@ Funkcje:
 `public BigDecimal getPriceTotal()`  
 `public String toString()`  
 
-## 2. Interfejs Graficzny Użytkownika
+## 3. Interfejs Graficzny Użytkownika
 ### Widok aplikacji i wyświetlanie
 Za całokształt interaktywnego okna aplikacji odpowiedzialna jest klasa `MainController` 
 zawierająca następujące metody:
