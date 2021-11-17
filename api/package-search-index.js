@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pl.io.pss.api.exchange"},{"l":"pl.io.pss.api.WsClient"},{"l":"pl.io.pss.api.WsClient.Response"},{"l":"pl.io.pss.invoice"}];updateSearchResults();
