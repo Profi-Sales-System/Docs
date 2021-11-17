@@ -4,3 +4,4 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 1. [api](https://profi-sales-system.github.io/Docs/api/index.html)
 2. [database](https://profi-sales-system.github.io/Docs/database/index.html)
 3. [gui](https://profi-sales-system.github.io/Docs/gui/index.html)
+4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
