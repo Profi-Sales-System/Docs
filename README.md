@@ -198,11 +198,17 @@ zawierająca następujące metody:
 oraz metody wywoływane przy obsłudze rozwijanego menu kontekstowego, przeciążone przez `MenuController`
 
 `public void showSalesCategoryButtons()` wyświetla dostępne sekcje w module Sprzedaż
+
 `public void showPurchaseCategoryButtons()` wyświetla dostępne sekcje w module Zakup
+
 `public void showWarehouseCategoryButtons()` wyświetla dostępne sekcje w module Magazyn
+
 `public void showFinanceCategoryButtons()` wyświetla dostępne sekcje w module Finanse
+
 `public void showOrganizationCategoryButtons()` wyświetla dostępne sekcje w module Organizacja
+
 `public void showCatalogCategoryButtons()` wyświetla dostępne sekcje w module Kartoteki
+
 `public void showAdministrationCategoryButtons()` wyświetla dostępne sekcje w module Administracja
 
 
