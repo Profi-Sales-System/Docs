@@ -64,11 +64,11 @@ Invoice.generateInvoice(dataForInvoice.data,idzamowienia);
 gdzie ``` idzamowienia ``` to numer zamówienia jakiego faktura dotyczy
 
 ## 2. Obsługa bazy danych
-###Pobieranie informacji
+### Pobieranie informacji
 
 Klasa `DataGetter` pozwala na dostęp do zasobów bazy danych
 
-####pakiet -> pl.io.pss.api.database
+#### pakiet -> pl.io.pss.api.database
 
 Konstruktor bezargumentowy `public DataGetter()`
 
@@ -89,11 +89,11 @@ Pobiera informacje potrzebne do wygenerowania faktury
 `public ArrayList<Item> getItemsFromOrder(int orderID)`
 Zwraca listę przedmiotów z danego zamówienia wraz z cenami i ilością
 
-###Dodawanie i aktualizowanie informacji
+### Dodawanie i aktualizowanie informacji
 
 Klasa `DataInserter` pozwala pozwala umieszczać/aktualizować informacje w bazie danych  
 
-####pakiet -> pl.io.pss.api.database
+#### pakiet -> pl.io.pss.api.database
 
 Konstruktor bezargumentowy `public DataGetter()`
 
@@ -108,9 +108,9 @@ Funkcje:
 `public boolean insertInvoice(Invoice invoice)` Zapisuje dane faktury do bazy danych
 
 
-###Użyte struktury reprezentacji danych
+### Użyte struktury reprezentacji danych
 
-####pakiet -> pl.io.pss.api.database.structures
+#### pakiet -> pl.io.pss.api.database.structures
 
 `Commodity` reprezentuje towar (symbol, nazwa, typ, jednostka)   
 Konstruktor:   
