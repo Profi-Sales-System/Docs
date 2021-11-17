@@ -184,7 +184,7 @@ Funkcje:
 `public BigDecimal getPriceTotal()`  
 `public String toString()`  
 
-###Wykres ERD
+### Wykres ERD
 
 ![Wykres ERD](./ERD.png)
 
