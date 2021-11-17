@@ -21,15 +21,15 @@ pobranie kursu
 ratesConnector.ratesRequest(kod, RateType).getRates()[0].getMid());
 ```
 gdzie:
-- kod -> String np."EUR"
-- RateType -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
+- ``` kod ``` -> String np."EUR"
+- ``` RateType ``` -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
 
 ### Pobieranie danych firm z GUS:
 Tworzymy objekt
 ```
 CompanyApi companyApi = new CompanyApi(nip)
 ```
-gdzie nip to String zawirający 10cyfr reprezentujacych firme której dane chcemy pobrać.
+gdzie ``` nip ``` to String zawirający 10cyfr reprezentujacych firme której dane chcemy pobrać.
 samo pobieranie danych:
 ```
 companyApi.data().getFullName();
