@@ -184,6 +184,10 @@ Funkcje:
 `public BigDecimal getPriceTotal()`  
 `public String toString()`  
 
+###Wykres ERD
+
+![Wykres ERD](./ERD.png)
+
 ## 3. Interfejs Graficzny Użytkownika
 ### Widok aplikacji i wyświetlanie
 Za całokształt interaktywnego okna aplikacji odpowiedzialna jest klasa `MainController` 
