@@ -6,14 +6,4 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 3. [gui](https://profi-sales-system.github.io/Docs/gui/index.html)
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 
-przykłady uzycia: 
-```     DataForInvoice dataForInvoice = new DataForInvoice();
-        dataForInvoice.putContractor(2);
-        dataForInvoice.putSeller();
-        Invoice.generateInvoice(dataForInvoice.data,1);
-        
-        RatesConnector ratesConnector = new RatesConnector();
-        System.out.println(ratesConnector.ratesRequest("EUR", RateType.MID).getRates()[0].getMid());
 
-        PrintService printer = Print.choosePrinter();
-        Print.printPDF("src/main/resources/invoice.pdf",printer);
