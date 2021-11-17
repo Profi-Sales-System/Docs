@@ -7,3 +7,17 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 
 
+## INTERFEJSY DLA:
+## 1.API:
+
+### Pobieranie kursów walut:
+``` 
+RatesConnector ratesConnector = new RatesConnector();
+```
+pobranie
+```
+ratesConnector.ratesRequest(kod, RateType).getRates()[0].getMid());
+```
+gdzie:
+kod -> String np."EUR"
+RateType -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
