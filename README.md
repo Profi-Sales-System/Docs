@@ -19,5 +19,5 @@ pobranie
 ratesConnector.ratesRequest(kod, RateType).getRates()[0].getMid());
 ```
 gdzie:
-kod -> String np."EUR"
-RateType -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
+- kod -> String np."EUR"
+- RateType -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
