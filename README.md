@@ -11,13 +11,52 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 ## 1.API:
 
 ### Pobieranie kursów walut:
+Tworzymy objekt dla połączenia
 ``` 
 RatesConnector ratesConnector = new RatesConnector();
 ```
-pobranie
+
+pobranie kursu
 ```
 ratesConnector.ratesRequest(kod, RateType).getRates()[0].getMid());
 ```
 gdzie:
 - kod -> String np."EUR"
 - RateType -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
+
+### Pobieranie danych firm z GUS:
+Tworzymy objekt
+```
+CompanyApi companyApi = new CompanyApi(nip)
+```
+gdzie nip to String zawirający 10cyfr reprezentujacych firme której dane chcemy pobrać.
+samo pobieranie danych:
+```
+companyApi.data().getFullName();
+companyApi.data().getCountry();
+companyApi.data().getStreet();
+companyApi.data().getCity;
+companyApi.data().getPostCode();
+companyApi.data().getCity();
+companyApi.data().getPhoneNumber();
+companyApi.data().getEmail();
+```
+
+### Generowanie faktury wraz z formatem PDF:
+Tworzymy obiekt
+```
+DataForInvoice dataForInvoice = new DataForInvoice();
+```    
+Ustalamy jaki kontrahent jest nabywcą
+```
+dataForInvoice.putContractor(idkontrahenta);    
+```
+Ustwiamy sprzedawce
+```
+dataForInvoice.putSeller();     
+```
+I generujemy fakture
+```
+Invoice.generateInvoice(dataForInvoice.data,idzamowienia);
+```
+gdzie ``` idzamowienia ``` to numer zamówienia jakiego faktura dotyczy
