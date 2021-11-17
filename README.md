@@ -195,7 +195,9 @@ zawierająca następujące metody:
 
 `public void switchToMainWindow(MouseEvent mouseEvent)` umożliwiającą powrót do okna głównego
 
+
 oraz metody wywoływane przy obsłudze rozwijanego menu kontekstowego, przeciążone przez `MenuController`
+
 
 `public void showSalesCategoryButtons()` wyświetla dostępne sekcje w module Sprzedaż
 
@@ -216,20 +218,34 @@ oraz metody wywoływane przy obsłudze rozwijanego menu kontekstowego, przecią�
 Użytkownik ma możliwość wyboru sekcji, którą chce wyświetlić, bądź edytować. Wybór każdej z nich wiąże się ze zmianą sposobu reakcji na poszczególne akcje.
 Np. Przycisk "Dodaj" inaczej będzie działał dla sekcji Kontrahenci, a inaczej dla sekcji Faktury itd. 
 Użytkownik może równocześnie mieć otworzonych kilka zakładek, a w każdej z nich inna sekcja, dlatego też aktualnie wybrane sekcje (dalej zwane "aktualnymi stanami") przechowywane są w liście stanów:
+
 `public static ArrayList<MainController> actualStates` w klasie `MainController`
+
 Obecnie wybrana zakładka zapamiętywana jest w `public static MainController currentState`
 
+
 Każdy stan obsługiwany jest przez inną klasę, będącą kontrolerem.
+
 `ContractorsController` dla Kontrahentów w module Kartoteki
+
 `WaresController` dla Towarów w module Kartoteki
+
 `OrdersFromSuppliersController` dla Zamówień od Dostawców w module Zakup
+
 `PurchaseAjustmentController` dla Korekt w module Zakup
+
 `PurchaseInvoicesController` dla Faktur w module Zakup
+
 `CustomerOrdersController` dla Zamówień w module Sprzedaż
+
 `SalesAjustmentController` dla Korekt w module Sprzedaż
+
 `SalesInvoicesController` dla Faktur w module Sprzedaż
+
 `InventoryController` dla Inwentaryzacji w module Magazyn
+
 `StockLevelsController` dla Stanów Magazynowych w module Magazyn
+
 
 Każdy kontroler jest klasą dziedziczącą po głównym kontrolerze `MainController` i zawiera następujące przeciążone metody, które definiują sposób reagowania na wybór konkretnego przycisku:
 
@@ -254,7 +270,9 @@ Obsługa przycisku „Zobacz”
 Obsługa przycisku „Edytuj”
 `public void pressedEditButton(MouseEvent mouseEvent)`
 
+
 Ponadto klasy kontrolujące mają zdefiniowane medoty:
 
 `public ContractorsController addNewBookmark(String title)` tworzy nową zakładkę o tytule: `String title`
+
 `public ContractorsController setTheTable()` komunikuje się z bazą danych i generuje tabelę do wyświetlenia 
