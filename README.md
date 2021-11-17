@@ -11,6 +11,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 ## 1.API:
 
 ### Pobieranie kursów walut:
+#### pakiet -> pl.io.pss.api.exchange
 Tworzymy objekt dla połączenia
 ``` 
 RatesConnector ratesConnector = new RatesConnector();
@@ -25,6 +26,7 @@ gdzie:
 - ``` RateType ``` -> typ wyliczeniowy, jaki typ kursu oczekujemy, np {MID,ASK,BID}.
 
 ### Pobieranie danych firm z GUS:
+#### pakiet -> pl.io.pss.api.WsClient
 Tworzymy objekt
 ```
 CompanyApi companyApi = new CompanyApi(nip)
@@ -43,6 +45,7 @@ companyApi.data().getEmail();
 ```
 
 ### Generowanie faktury wraz z formatem PDF:
+#### pakiet -> pl.io.pss.api.invoice
 Tworzymy obiekt
 ```
 DataForInvoice dataForInvoice = new DataForInvoice();
