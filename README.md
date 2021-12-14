@@ -8,7 +8,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 5. [Lista wymagań](#lista-wymagań)
 6. [Use-cases](#use-cases)
 
-## Lista wymagań  <span style="color:blue">some *blue* text</span>
+## Lista wymagań
 ### Wymagania funkcjonalne:
 * sprawne zarządanie księgowością w firmie
 * wystawianie faktur
@@ -30,7 +30,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 * integralność danych
 * odporność na ataki
 
-## Use-cases <span style="color:blue">some *blue* text</span>
+## Use-cases
 
 ### Logowanie do systemu
 1.	Przy każdym uruchomieniu aplikacji użytkownik proszony jest o podanie danych logowania.
