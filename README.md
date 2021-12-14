@@ -5,6 +5,65 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 2. [database](https://profi-sales-system.github.io/Docs/database/index.html)
 3. [gui](https://profi-sales-system.github.io/Docs/gui/index.html)
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
+5. [Lista wymagań](#lista-wymagań)
+6. [Use-cases](#use-cases)
+
+## Lista wymagań  <span style="color:blue">some *blue* text</span>
+### Wymagania funkcjonalne:
+* sprawne zarządanie księgowością w firmie
+* wystawianie faktur
+* drukowanie faktur
+* dodawanie, usuwanie, edytowanie danych kontrahentów
+* dodawanie, usuwanie, edytowanie danych dostawców
+* uzupełnianie danych przedsiębiorców na podstawie NIP
+* planowanie dostaw
+* obsługa zamówień
+* obsługa kalendarza
+* możliwość przewalutowania cen towarów
+
+### Wymagania niefunkcjonalne:
+* niezawodność
+* szybkość obliczeń
+* bezpieczeństwo
+* identyfikacja użytkowników
+* autoryzacja
+* integralność danych
+* odporność na ataki
+
+## Use-cases <span style="color:blue">some *blue* text</span>
+
+### Logowanie do systemu
+1.	Przy każdym uruchomieniu aplikacji użytkownik proszony jest o podanie danych logowania.
+2.	Użytkownik podaje swój login i hasło nadane wcześniej przez administratora.
+3.	System weryfikuje poprawność danych.
+4.	Jeśli dane były prawidłowe użytkownik  zostaje zalogowany do systemu, w przeciwnym razie otrzymuje komunikat o błędzie. Trzykrotne niepowodzenie kończy się zablokowaniem konta, które może ponownie odblokować tylko administrator.
+
+### Drukowanie faktury
+1.	Użytkownik z menu kontekstowego wybiera zakładkę Faktury od Klientów lub Faktury od Dostawców.
+2.	W głównej części wyświetla się tabela z wszystkimi fakturami.
+3.	Użytkownik wybiera opcję „Szukaj” w celu odnalezienia interesującej go faktury.
+4.	Otwiera się formularz wyszukiwania.
+5.	Użytkownik wypełnia pola po których chce wyszukiwać, a następnie zatwierdza.
+6.	Jeśli faktura spełniająca podane kryteria znajduje się w bazie danych, to wiersz zawierający ją zostaje wyróżniony innym kolorem. W przeciwnym wypadku użytkownik otrzymuje komunikat, o niepowodzeniu wyszukiwania.
+7.	Gdy dany wiersz jest wyróżniony użytkownik możem wybrać opcję „Drukuj”.
+8.	System generuje fakturę.
+9.	Wyświetla się systemowe okno drukowania.
+10.	Użytkownik zatwierdza proces drukowania.
+11.	Następuje wydruk faktury.
+UWAGA! Użytkownik nie musi skorzystać z opcji „Szukaj”, może także po prostu manualnie poprzez kliknięcie zaznaczyć interesującą go fakturę. Może też zaznaczyć więcej faktur. Wówczas każda z nich zostanie wydrukowana.
+
+### Dodawanie nowego kontrahenta
+1.	Użytkownik wybiera kolejno zakładki Kartoteki -> Kontrahenci.
+2.	Wyświetla się tabela z wszystkimi kontrahentami.
+3.	Użytkownik klika przycisk „+” (Dodaj)
+4.	Otwiera się formularz dodawania kontrahenta.
+5.	Użytkownik wpisuje numer NIP i zatwierdza klawiszem ENTER.
+6.	System sprawdza poprawność NIP pod względem formatu, ale też istnienia w bazie danych.
+7.	Jeśli NIP jest poprawny dane z nim powiązane uzupełniają się automatycznie.
+Pozostałe pola należy wypełnić ręcznie.
+8.	Użytkownik wprowadza wszystkie wymagane dane i zatwierdza przyciskiem „Dodaj”
+9.	Dane zapisywane są w bazie danych.
+10.	Tabela z kontrahentami odświeża się i pojawia się w niej nowy rekord.
 
 ## INTERFEJSY DLA:
 ## 1.API:
