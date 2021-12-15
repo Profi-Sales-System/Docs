@@ -7,6 +7,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 5. [Lista wymagań](#lista-wymagań)
 6. [Use-cases](#use-cases)
+7. [Analiza Ryzyka](#analiza-ryzyka)
 
 ## Lista wymagań
 ### Wymagania funkcjonalne:
@@ -378,3 +379,11 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 `public ContractorsController addNewBookmark(String title)` tworzy nową zakładkę o tytule: `String title`
 
 `public ContractorsController setTheTable()` komunikuje się z bazą danych i generuje tabelę do wyświetlenia 
+
+
+##Analiza Ryzyka
+###Lista ryzyk
+![Lista Ryzyk](./lista_ryzyk.png)
+
+###Macierz ryzyka
+![Macierz ryzyka](./macie_ryzyka.png)
