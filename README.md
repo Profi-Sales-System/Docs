@@ -386,4 +386,4 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 ![Lista Ryzyk](./lista_ryzyk.png)
 
 ###Macierz ryzyka
-![Macierz ryzyka](./macie_ryzyka.png)
+![Macierz ryzyka](./macierz_ryzyka.png)
