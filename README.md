@@ -381,9 +381,9 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 `public ContractorsController setTheTable()` komunikuje się z bazą danych i generuje tabelę do wyświetlenia 
 
 
-##Analiza Ryzyka
-###Lista ryzyk
+## Analiza Ryzyka
+### Lista ryzyk
 ![Lista Ryzyk](./lista_ryzyk.png)
 
-###Macierz ryzyka
+### Macierz ryzyka
 ![Macierz ryzyka](./macierz_ryzyka.png)
