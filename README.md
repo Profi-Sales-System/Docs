@@ -413,12 +413,21 @@ Rozwijany jest przez firmę Oracle.
 
 Testy zostaną napisane z pomocą narzędzia jUnit
 
-GUI
+FRONTEND
 1.	Testowanie działania poszczególnych przycisków.
 2.	Testowanie responsywności okien.
 3.	Testowanie opcji zmiany języka.
 4.	Testowanie, czy  wyświetlane tabele z danymi aktualizują się prawidłowo po dodaniu/edytowaniu/usunięciu jakiś informacji.
 5.	Testowanie, czy użytkownik otrzymuje komunikat o błędach, w przypadku wprowadzenia nieprawidłowych danych.
+
+BACKEND
+1.	Testowanie, czy faktura drukuje się poprawnie.
+2.	Testowanie połączenia  API GUS (numery NIP).
+3.	Testowanie połączenia API banków (kurs walut).
+4.	Testowanie bezpieczeństwa logowania.
+5.	Testowanie poszczególnych metod pomocniczych
+6.	Testowanie działania na wypadek wpisywania błędnych danych.
+7.	Testowanie obsługi wyjątków.
 
 Baza danych
 1.	Poprawna reakcja w przypadku braku połączenia z internetem.
@@ -454,4 +463,7 @@ Baza danych
 
 5. Trello
 - Planowanie pracy
+
+6. phpMyAdmin
+- Interfejs graficzny do zarządzania bazą danych.
 
