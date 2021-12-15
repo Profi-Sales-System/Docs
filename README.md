@@ -449,7 +449,7 @@ Baza danych
 1. Repozytorium na platformie github.com
 - Zabezpieczenie przez utratą kodu, możliwość lepszej współpracy.
 
-2. środowisko Idea IntelliJ
+2. Środowisko Idea IntelliJ
 - Niezawodność 
 - Kolorowanie kodu 
 - Dobry debugger
