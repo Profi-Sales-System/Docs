@@ -11,12 +11,11 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 1. [Lista wymagań](#lista-wymagań)
 2. [Use-cases](#use-cases)
 3. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
-4. [DO UZUPEŁNIENIA Architektura systemu](#architektura-systemu)
-5. [Opis interfejsów](#opis-interfejsów)
-6. [Lista wykorzystywanych technologii](#lista-wykorzystywanych-technologii)
-7. [Projekt testów](#projekt-testów)
-8. [Analiza Ryzyka](#analiza-ryzyka)
-9. [Lista wykorzystywanych narzędzi](#lista-wykorzystywanych-narzędzi)
+4. [Opis interfejsów](#opis-interfejsów)
+5. [Lista wykorzystywanych technologii](#lista-wykorzystywanych-technologii)
+6. [Projekt testów](#projekt-testów)
+7. [Analiza Ryzyka](#analiza-ryzyka)
+8. [Lista wykorzystywanych narzędzi](#lista-wykorzystywanych-narzędzi)
 
 ## Lista wymagań
 ### Wymagania funkcjonalne:
@@ -113,10 +112,6 @@ Dla zwykłych użytkowników ta opcja jest wyłączona, a cena pobierana jest au
 8.	Dane zapisywane są w odpowiedniej bazie danych.
 9.	System przesyła mailowo informację o zamówieniu do dostawcy.
 10.	Tabela z zamówieniami od dostawców odświeża się i pojawia się w niej nowy rekord.
-
-## Architektura systemu
-
-DO UZUPEŁNIENIA!
 
 ## Opis interfejsów
 
