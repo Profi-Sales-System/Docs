@@ -7,8 +7,9 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 5. [Lista wymagań](#lista-wymagań)
 6. [Use-cases](#use-cases)
-7. [Projekt testów](projekt-testów)
+7. [Projekt testów](#projekt-testów)
 8. [Analiza Ryzyka](#analiza-ryzyka)
+9. [Lista wykorzystywanych narzędzi](#lista-wykorzystywanych-narzędzi)
 
 ## Lista wymagań
 ### Wymagania funkcjonalne:
@@ -399,3 +400,19 @@ GUI
 
 ### Macierz ryzyka
 ![Macierz ryzyka](./macierz_ryzyka.png)
+
+## Lista wykorzystywanych narzędzi
+
+- repozytorium na platformie github.com
+Zabezpieczenie przez utratą kodu, możliwość lepszej współpracy.
+
+- środowisko Idea IntelliJ
+Niezawodność, kolorowanie kodu, dobry debugger.
+
+- Scene Builder
+Obsługa języka szablonowego FXML, łatwość budowania okien.
+- Discord
+Komunikacja w zespole.
+- Trello
+Planowanie pracy
+
