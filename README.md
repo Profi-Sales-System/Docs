@@ -7,7 +7,8 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 5. [Lista wymagań](#lista-wymagań)
 6. [Use-cases](#use-cases)
-7. [Analiza Ryzyka](#analiza-ryzyka)
+7. [Projekt testów](projekt-testów)
+8. [Analiza Ryzyka](#analiza-ryzyka)
 
 ## Lista wymagań
 ### Wymagania funkcjonalne:
@@ -379,6 +380,17 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 `public ContractorsController addNewBookmark(String title)` tworzy nową zakładkę o tytule: `String title`
 
 `public ContractorsController setTheTable()` komunikuje się z bazą danych i generuje tabelę do wyświetlenia 
+
+## Projekt testów
+
+Testy zostaną napisane z pomocą narzędzia jUnit
+
+GUI
+1.	Testowanie działania poszczególnych przycisków.
+2.	Testowanie responsywności okien.
+3.	Testowanie opcji zmiany języka.
+4.	Testowanie, czy  wyświetlane tabele z danymi aktualizują się prawidłowo po dodaniu/edytowaniu/usunięciu jakiś informacji.
+5.	Testowanie, czy użytkownik otrzymuje komunikat o błędach, w przypadku wprowadzenia nieprawidłowych danych.
 
 
 ## Analiza Ryzyka
