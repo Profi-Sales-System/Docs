@@ -1,4 +1,4 @@
-# Docs
+# PROFI SALES SYSTEM
 Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie Inżynieria Oprogramowania (AGH)
 ## Aby otworzyć podsumowanie dokumentacji danej sekcji projektu należy wybrać jeden w poniższych linków:
 
