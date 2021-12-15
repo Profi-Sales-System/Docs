@@ -13,7 +13,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 3. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
 4. [DO UZUPEŁNIENIA Architektura systemu](#architektura-systemu)
 5. [Opis interfejsów](#opis-interfejsów)
-6. [DO UZUPEŁNIENIA Lista wykorzystywanych technologii](#lista-wykorzystywanych-technologii)
+6. [Lista wykorzystywanych technologii](#lista-wykorzystywanych-technologii)
 7. [Projekt testów](#projekt-testów)
 8. [Analiza Ryzyka](#analiza-ryzyka)
 9. [Lista wykorzystywanych narzędzi](#lista-wykorzystywanych-narzędzi)
@@ -397,7 +397,23 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 
 ## Lista wykorzystywanych technologii
 
-#DO  UZUPEŁNIENIA
+- backend:
+- 
+Java 17 
+Korzystanie z nowoczesnego języka obiektowego.
+Przenośność kodu pomiędzy różnymi systemami operacyjnymi.
+Dzięki temu nasza aplikacja będzie kompatybilna z większością systemów operacyjnych.
+
+- frontend:
+Java FX
+Prawidłowe wyświetlanie na większości systemów operacyjnych.
+Zawiera dużo przydatnych funkcjonalności, które wykorzystujemy do budowy aplikacji.
+
+- bazy danych:	
+MySQL
+Jest to wydajny i open-source’owy system zarządzania relacyjnymi bazami danych. 
+Rozwijany jest przez firmę Oracle. 
+
 
 ## Projekt testów
 
