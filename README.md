@@ -403,16 +403,21 @@ GUI
 
 ## Lista wykorzystywanych narzędzi
 
-- repozytorium na platformie github.com
-Zabezpieczenie przez utratą kodu, możliwość lepszej współpracy.
+1. Repozytorium na platformie github.com
+- Zabezpieczenie przez utratą kodu, możliwość lepszej współpracy.
 
-- środowisko Idea IntelliJ
-Niezawodność, kolorowanie kodu, dobry debugger.
+2. środowisko Idea IntelliJ
+- Niezawodność 
+- Kolorowanie kodu 
+- Dobry debugger
 
-- Scene Builder
-Obsługa języka szablonowego FXML, łatwość budowania okien.
-- Discord
-Komunikacja w zespole.
-- Trello
-Planowanie pracy
+3. Scene Builder
+- Obsługa języka szablonowego FXML
+- Łatwość budowania okien.
+
+4. Discord
+- Komunikacja w zespole.
+
+5. Trello
+- Planowanie pracy
 
