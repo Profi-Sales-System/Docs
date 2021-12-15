@@ -1,12 +1,19 @@
 # Docs
 Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie Inżynieria Oprogramowania (AGH)
 ## Aby otworzyć podsumowanie dokumentacji danej sekcji projektu należy wybrać jeden w poniższych linków:
+
+### JavaDoc
 1. [api](https://profi-sales-system.github.io/Docs/api/index.html)
 2. [database](https://profi-sales-system.github.io/Docs/database/index.html)
 3. [gui](https://profi-sales-system.github.io/Docs/gui/index.html)
-4. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
-5. [Lista wymagań](#lista-wymagań)
-6. [Use-cases](#use-cases)
+
+### Opis projektu
+1. [Lista wymagań](#lista-wymagań)
+2. [Use-cases](#use-cases)
+3. [ERD](https://profi-sales-system.github.io/Docs/ERD.png)
+4. [DO UZUPEŁNIENIA Architektura systemu)(#architektura-systemu)
+5. [Opis interfejsów](#opis-interfejsów)
+6. [DO UZUPEŁNIENIA Lista wykorzystywanych technologii)(#lista-wykorzystywanych-technologii)
 7. [Projekt testów](#projekt-testów)
 8. [Analiza Ryzyka](#analiza-ryzyka)
 9. [Lista wykorzystywanych narzędzi](#lista-wykorzystywanych-narzędzi)
@@ -107,7 +114,12 @@ Dla zwykłych użytkowników ta opcja jest wyłączona, a cena pobierana jest au
 9.	System przesyła mailowo informację o zamówieniu do dostawcy.
 10.	Tabela z zamówieniami od dostawców odświeża się i pojawia się w niej nowy rekord.
 
-## INTERFEJSY DLA:
+## Architektura systemu
+
+DO UZUPEŁNIENIA!
+
+## Opis interfejsów
+
 ## 1.API:
 
 ### Pobieranie kursów walut:
@@ -381,6 +393,11 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 `public ContractorsController addNewBookmark(String title)` tworzy nową zakładkę o tytule: `String title`
 
 `public ContractorsController setTheTable()` komunikuje się z bazą danych i generuje tabelę do wyświetlenia 
+
+
+## Lista wykorzystywanych technologii
+
+#DO  UZUPEŁNIENIA
 
 ## Projekt testów
 
