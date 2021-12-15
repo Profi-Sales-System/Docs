@@ -425,6 +425,13 @@ GUI
 4.	Testowanie, czy  wyświetlane tabele z danymi aktualizują się prawidłowo po dodaniu/edytowaniu/usunięciu jakiś informacji.
 5.	Testowanie, czy użytkownik otrzymuje komunikat o błędach, w przypadku wprowadzenia nieprawidłowych danych.
 
+Baza danych
+1.	Poprawna reakcja w przypadku braku połączenia z internetem.
+2.	Poprawne działanie logowania i autoryzacji.
+3.	Działanie w przypadku wysłania wybrakowanych danych.
+4.	Odpowiednia reakcja zwrotna przy próbie dodania już istniejących danych.
+5.	Poprawna archiwizacja danych.
+
 
 ## Analiza Ryzyka
 ### Lista ryzyk
