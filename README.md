@@ -397,22 +397,21 @@ Ponadto klasy kontrolujące mają zdefiniowane medoty:
 
 ## Lista wykorzystywanych technologii
 
-- backend:
-- 
-Java 17 
+- backend:\
+Java 17 \
 Korzystanie z nowoczesnego języka obiektowego.
 Przenośność kodu pomiędzy różnymi systemami operacyjnymi.
-Dzięki temu nasza aplikacja będzie kompatybilna z większością systemów operacyjnych.
+Dzięki temu nasza aplikacja będzie kompatybilna z większością systemów operacyjnych.\
 
-- frontend:
-Java FX
+- frontend:\
+Java FX\
 Prawidłowe wyświetlanie na większości systemów operacyjnych.
-Zawiera dużo przydatnych funkcjonalności, które wykorzystujemy do budowy aplikacji.
+Zawiera dużo przydatnych funkcjonalności, które wykorzystujemy do budowy aplikacji.\
 
-- bazy danych:	
-MySQL
+- bazy danych: \
+MySQL\
 Jest to wydajny i open-source’owy system zarządzania relacyjnymi bazami danych. 
-Rozwijany jest przez firmę Oracle. 
+Rozwijany jest przez firmę Oracle. \
 
 
 ## Projekt testów
