@@ -50,6 +50,7 @@ Repozytorium zawierające dokumentacje dotyczącą projektu PSS na przedmiocie I
 9.	Wyświetla się systemowe okno drukowania.
 10.	Użytkownik zatwierdza proces drukowania.
 11.	Następuje wydruk faktury.
+
 UWAGA! Użytkownik nie musi skorzystać z opcji „Szukaj”, może także po prostu manualnie poprzez kliknięcie zaznaczyć interesującą go fakturę. Może też zaznaczyć więcej faktur. Wówczas każda z nich zostanie wydrukowana.
 
 ### Dodawanie nowego kontrahenta
@@ -64,6 +65,44 @@ Pozostałe pola należy wypełnić ręcznie.
 8.	Użytkownik wprowadza wszystkie wymagane dane i zatwierdza przyciskiem „Dodaj”
 9.	Dane zapisywane są w bazie danych.
 10.	Tabela z kontrahentami odświeża się i pojawia się w niej nowy rekord.
+
+### Dodawanie nowego zamówienia 
+
+1.	Użytkownik wybiera kolejno zakładki Sprzedaż -> Zamówienia
+2.	Wyświetla się tabela z wszystkimi zamówieniami.
+3.	Użytkownik klika przycisk „+” (Dodaj)
+4.	Otwiera się formularz dodawania nowego zamówienia.
+5.	Na początku użytkownik powinien wybrać opcję „Dodaj klienta”
+6.	Otwiera się formularz dodawania klienta.
+7.	Użytkownik uzupełnia wszystkie dane o kliencie i adresie dostawy, następnie zatwierdza.
+8.	System sprawdza, czy klient o podanych danych już istnieje w systemie. 
+Jeśli tak, wyświetla się okno z listą klientów o tym samym imieniu i nazwisku, klient wybiera manualnie konkretnego klienta i zatwierdza.
+Jeśli nie, system pyta, czy dodać nowego klienta i po uzyskaniu pozytywnej odpowiedzi nowy klient zostaje automatycznie zapisany.
+9.	Dane klienta pojawiają się u góry formularza dodawania zamówienia.
+10.	W tabeli pod sekcją z danymi klienta, użytkownik wybiera opcję „+” (Dodaj),
+11.	Wyświetla się okno dodawania towaru do zamówienia.
+12.	Użytkownik wybiera dostępny towar z listy towarów i wprowadza jego ilość.
+Jeśli użytkownik jest administratorem, w uzasadnionej sytuacji może też zmienić cenę.
+Dla zwykłych użytkowników ta opcja jest wyłączona, a cena pobierana jest automatycznie.
+13.	Użytkownik zatwierdza wprowadzone dane, klikając przycisk „Dodaj”
+14.	W tabeli z zamówionymi towarami pojawia się nowy rekord z danym towarem.
+15.	Użytkownik może zakończyć dodawanie zamówienia, bądź też wrócić się do punktu 3) i powtórzyć kolejne czynności w celu dodania większej ilości towarów.
+16.	Użytkownik wybiera opcję „Złóż zamówienie”
+17.	System przesyła informacje o zamówieniu do odpowiedniej bazy danych i nadaje zamówieniu status „W realizacji”
+18.	Tabela z zamówieniami odświeża się i pojawia się w niej nowy rekord.
+
+### Składanie zamówienia od dostawców
+
+1.	Użytkownik wybiera kolejno zakładki Dostawy -> Zamówienia od dostawców
+2.	Wyświetla się tabela z wszystkimi zamówieniami.
+3.	Użytkownik klika przycisk „+” (Dodaj)
+4.	Otwiera się formularz dodawania nowego zamówienia.
+5.	System automatycznie generuje zamówienia od dostawców na podstawie niezrealizowanych jeszcze zamówień od klientów.
+6.	Użytkownik ma także prawo dodać nowe zamówienie lub edytować zamówienie wygenerowane przez system.
+7.	Użytkownik zatwierdza złożenie zamówień od dostawców.
+8.	Dane zapisywane są w odpowiedniej bazie danych.
+9.	System przesyła mailowo informację o zamówieniu do dostawcy.
+10.	Tabela z zamówieniami od dostawców odświeża się i pojawia się w niej nowy rekord.
 
 ## INTERFEJSY DLA:
 ## 1.API:
